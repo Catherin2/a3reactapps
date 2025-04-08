@@ -8,7 +8,7 @@ export default function Member() {
         name: "",
         phone: "",
         role: ""
-    })
+    });
     //display  data record
     useEffect(() => {
         axios.get('Driver={ODBC Driver 18 for SQL Server};Server=tcp:mysglserver46.database.windows.net,1433;Database=grey;Uid=azureuser;Pwd={8765432#A};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;',
